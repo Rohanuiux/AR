@@ -11,8 +11,8 @@
       arjs="sourceType: webcam; debugUIEnabled: false;"
     >
       <a-assets>
-        <a-asset-item id="flamingo" src="flamingo.glb"></a-asset-item>
-        <a-asset-item id="duck" src="duck.glb"></a-asset-item>
+        <a-asset-item id="flamingo" src="https://raw.githubusercontent.com/Rohanuiux/AR/main/flamingo.glb"></a-asset-item>
+        <a-asset-item id="duck" src="https://raw.githubusercontent.com/Rohanuiux/AR/main/duck.glb"></a-asset-item>
       </a-assets>
 
       <!-- Marker 1 - Hiro → Flamingo (animated) -->
@@ -25,8 +25,8 @@
         ></a-entity>
       </a-marker>
 
-      <!-- Marker 2 - Custom Duck Marker → Duck model (no animation) -->
-      <a-marker type="pattern" url="duckmarker.patt">
+      <!-- Marker 2 - Custom Duck Marker → Duck model -->
+      <a-marker type="pattern" url="https://raw.githubusercontent.com/Rohanuiux/AR/main/duckmarker.patt">
         <a-entity
           gltf-model="#duck"
           scale="0.01 0.01 0.01"
