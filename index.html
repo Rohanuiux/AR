@@ -14,15 +14,14 @@
       <a-assets>
         <a-asset-item id="duck" src="flamingo.glb"></a-asset-item>
       </a-assets>
-
       <a-marker preset="hiro">
         <a-entity
           gltf-model="#duck"
           scale="0.01 0.01 0.01"
           position="0 0 0"
+          animation-mixer="clip: *; loop: repeat;"
         ></a-entity>
       </a-marker>
-
       <a-entity camera></a-entity>
     </a-scene>
   </body>
